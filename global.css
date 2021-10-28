@@ -1,0 +1,48 @@
+
+/*Importing fonts from google*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+.mw-body-content {
+    font-size: 1.1em; 
+    line-height: 1.7em;
+    letter-spacing: 0.019em;
+    max-width: auto;
+width: 100%;
+    margin: auto;
+}
+
+html, body {
+  font-family: "Atkinson Hyperlegible", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+    font-size: 1.05em;
+}
+h1, h2, h3, h4, h5, .mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4 {
+  font-family: "Atkinson Hyperlegible", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+font-weight: bold;
+border-bottom: none;
+
+}
+.mw-body .firstHeading, div#mw-panel div.portal h3 {
+    text-align: center;
+}
+
+.mw-body p {
+    margin: 0.8em 0;
+}
+tr td { display: flow-root; }
+
+@media screen and (min-width: 901px) {
+.mw-body-content {
+    width: 70%;
+    max-width: 55em;
+}
+table { border-color: #eeeeee; }
+tr td { display: table-cell; border-color: transparent; }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+table {float: none !important; width: 100% !important; }
+
+}

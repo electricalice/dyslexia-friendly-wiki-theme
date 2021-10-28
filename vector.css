@@ -1,0 +1,19 @@
+div.vectorTabs, div.vectorTabs ul, div.vectorTabs li.selected, div.vectorTabs ul li, div.vectorTabs span, div#mw-panel div.portal {
+	background-image: none;
+}
+
+div.vectorTabs ul li {
+	background-color: white;
+}
+
+#toc, .toc, .mw-warning, .toccolours, .mw-body, .catlinks, .infobox, table.fmbox, table.fmbox-warning {
+	border:  none;
+}
+
+div#mw-panel div.portal div.body ul li, div#mw-panel div.portal h3 {
+	font-size: 0.9em;
+}
+
+div#mw-panel #p-logo + div.portal div.body, div#mw-panel div.portal div.body {
+	margin-left: 0;
+}
