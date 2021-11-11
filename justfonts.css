@@ -19,6 +19,7 @@ html, body {
   /*
     Change Atkinson Hyperlegible to the font of your choice
     Use the line that Google gives you!
+    Always remember the " " if the name of the font is more than one word!
   */
   font-family: "Atkinson Hyperlegible", sans-serif;
 }
@@ -40,6 +41,7 @@ h1, h2, h3, h4, h5, .mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4 {
   /*
     Change Atkinson Hyperlegible to the font of your choice
     Use the line that Google gives you!
+    Always remember the " " if the name of the font is more than one word!
   */
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: bold;
