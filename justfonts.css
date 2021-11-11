@@ -1,0 +1,52 @@
+/*
+===========================
+Importing fonts from google
+===========================
+
+To change the font please go to https://fonts.google.com/ and find a font of your liking.
+The copy the @import line and substitute the one I wrote with the one google gives you for your own font
+You can also import more than one font family (for example to use one for the titles and one for the text)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+
+/*
+============
+Body of text
+============
+*/
+html, body {
+  /*
+    Change Atkinson Hyperlegible to the font of your choice
+    Use the line that Google gives you!
+  */
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.mw-body-content {
+  /*this next line changes the font size*/
+    font-size: 1.2em; 
+  /*this next line changes the line height*/    
+    line-height: 1.7em;
+  /*this next line changes the letter spacing*/
+    letter-spacing: 0.03em;
+  /*this next line changes the letter spacing*/
+    word-spacing: 0.05em;    
+}
+
+
+/*titles*/
+h1, h2, h3, h4, h5, .mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4 {
+  /*
+    Change Atkinson Hyperlegible to the font of your choice
+    Use the line that Google gives you!
+  */
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: bold;
+  /* 
+    I deleted the border at the bottom of the titles because I don't like it 
+    but if you want it back just delete the next line
+  */
+  border-bottom: none;
+
+}
