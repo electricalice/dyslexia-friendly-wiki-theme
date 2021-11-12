@@ -4,8 +4,13 @@ Importing fonts from google
 ===========================
 
 To change the font please go to https://fonts.google.com/ and find a font of your liking.
-The copy the @import line and substitute the one I wrote with the one google gives you for your own font
-You can also import more than one font family (for example to use one for the titles and one for the text)
+
+You'll need to select the style of the font you want and it will open the options to 'Use it on your website'.
+
+Copy the @import line and substitute the one I wrote with the one google gives you for your own font.
+
+You can also select and import more than one font family if you want to use 2 different fonts 
+for titles and body of text
 */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
@@ -18,8 +23,7 @@ Body of text
 html, body {
   /*
     Change Atkinson Hyperlegible to the font of your choice
-    Use the line that Google gives you!
-    Always remember the " " if the name of the font is more than one word!
+    Use the 'font-family' line that Google gives you!
   */
   font-family: "Atkinson Hyperlegible", sans-serif;
 }
@@ -36,12 +40,15 @@ html, body {
 }
 
 
-/*titles*/
+/*
+==========
+  Titles
+==========
+*/
 h1, h2, h3, h4, h5, .mw-body h1, .mw-body h2, .mw-body h3, .mw-body h4 {
   /*
     Change Atkinson Hyperlegible to the font of your choice
-    Use the line that Google gives you!
-    Always remember the " " if the name of the font is more than one word!
+    Use the 'font-family' line that Google gives you!
   */
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-weight: bold;
